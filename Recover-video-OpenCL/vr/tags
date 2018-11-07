@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+C	bin2vid	/^C = 3$/;"	v
+C	main.c	/^const int H = 1080, W = 1920, C = 3;$/;"	v
+CFLAGS	Makefile	/^CFLAGS=-std=c99 -O3$/;"	m
+FFMPEG_BIN	bin2vid	/^FFMPEG_BIN = "\/scratch\/share\/apss17\/vr_data\/ffmpeg"$/;"	v
+H	bin2vid	/^H = 1080$/;"	v
+H	main.c	/^const int H = 1080, W = 1920, C = 3;$/;"	v
+LDFLAGS	Makefile	/^LDFLAGS=-lm -lOpenCL$/;"	m
+N	bin2vid	/^N = len(idxs)$/;"	v
+N	main.c	/^int N;$/;"	v
+W	bin2vid	/^W = 1920$/;"	v
+W	main.c	/^const int H = 1080, W = 1920, C = 3;$/;"	v
+command	bin2vid	/^command = [ FFMPEG_BIN,$/;"	v
+getTime	main.c	/^double getTime()$/;"	f
+idxs	bin2vid	/^    idxs = map(int, fidx.read().splitlines())$/;"	v
+idxs	bin2vid	/^    idxs = range(N)$/;"	v
+init	vr_opencl.c	/^void init() {$/;"	f
+init	vr_seq.c	/^void init() {$/;"	f
+main	main.c	/^int main(int argc, char **argv) {$/;"	f
+np	bin2vid	/^import numpy as np$/;"	i
+pipe	bin2vid	/^pipe = sp.Popen( command, stdin=sp.PIPE)$/;"	v
+rawvideo	bin2vid	/^    rawvideo = fbin.read()$/;"	v
+readBin	main.c	/^void readBin(char *fn) {$/;"	f
+recoverVideo	vr_opencl.c	/^void recoverVideo(unsigned char *videoR, unsigned char *videoG, unsigned char *videoB, int *vrIdx, int N, int H, int W) {$/;"	f
+recoverVideo	vr_seq.c	/^void recoverVideo(unsigned char *videoR, unsigned char *videoG, unsigned char *videoB, int *vrIdx, int N, int H, int W) {$/;"	f
+sp	bin2vid	/^import subprocess as sp$/;"	i
+sys	bin2vid	/^import sys$/;"	i
+videoB	main.c	/^unsigned char *videoR, *videoG, *videoB;$/;"	v
+videoG	main.c	/^unsigned char *videoR, *videoG, *videoB;$/;"	v
+videoR	main.c	/^unsigned char *videoR, *videoG, *videoB;$/;"	v
+vrIdx	main.c	/^int *vrIdx;$/;"	v
+writeIdx	main.c	/^void writeIdx(char *fn) {$/;"	f
